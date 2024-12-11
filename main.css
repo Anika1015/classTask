@@ -1,0 +1,26 @@
+.bg-light {
+    background-color: #a0bfde !important;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block; /* Adjust as per your layout */
+  }
+  
+  .image-container img {
+    width: 100%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 40px; /* Adjust top position */
+    left: 40px; /* Adjust left position */
+    color: rgb(55, 56, 58); /* Text color */
+    /*background-color: rgb(199, 198, 198); /* Semi-transparent background */
+    /*padding: 10px; /* Padding around text */
+    font-size: 28px; /* Font size */
+    font-family: Arial, sans-serif; /* Font style */
+    border-radius: 5px; /* Rounded corners for the background */
+  }
+  
